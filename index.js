@@ -5,27 +5,27 @@ const app = express();
 app.use(express.json());
 
 const finalServers = [
-'https://blst.onrender.com',
-'https://lop-wmjz.onrender.com',
-'https://arf-rpwc.onrender.com',
-'https://blst009.onrender.com',
-'https://lop-zwgs.onrender.com',
-'https://blst-dufa.onrender.com',
-'https://blst-1li3.onrender.com',
-'https://blst-1wwr.onrender.com',
-'https://blst-fajn.onrender.com',
-'https://blst-ohte.onrender.com',
-'https://blst-fac3.onrender.com',
-'https://blst-tugj.onrender.com',
-'https://blst-4kfw.onrender.com',
-'https://blst-33u2.onrender.com',
-'https://blst-31sa.onrender.com',
-'https://blst-l7ih.onrender.com',
-'https://blst-v80w.onrender.com',
-'https://blst-dweh.onrender.com',
-'https://blst-a1tt.onrender.com',
-'https://blst-d78v.onrender.com',
-'https://blst-5x51.onrender.com'
+'https://blst.onrender.com/forward-requests',
+'https://lop-wmjz.onrender.com/forward-requests',
+'https://arf-rpwc.onrender.com/forward-requests',
+'https://blst009.onrender.com/forward-requests',
+'https://lop-zwgs.onrender.com/forward-requests',
+'https://blst-dufa.onrender.com/forward-requests',
+'https://blst-1li3.onrender.com/forward-requests',
+'https://blst-1wwr.onrender.com/forward-requests',
+'https://blst-fajn.onrender.com/forward-requests',
+'https://blst-ohte.onrender.com/forward-requests',
+'https://blst-fac3.onrender.com/forward-requests',
+'https://blst-tugj.onrender.com/forward-requests',
+'https://blst-4kfw.onrender.com/forward-requests',
+'https://blst-33u2.onrender.com/forward-requests',
+'https://blst-31sa.onrender.com/forward-requests',
+'https://blst-l7ih.onrender.com/forward-requests',
+'https://blst-v80w.onrender.com/forward-requests',
+'https://blst-dweh.onrender.com/forward-requests',
+'https://blst-a1tt.onrender.com/forward-requests',
+'https://blst-d78v.onrender.com/forward-requests',
+'https://blst-5x51.onrender.com/forward-requests'
 ];
 
 app.post('/forward-requests', (req, res) => {
